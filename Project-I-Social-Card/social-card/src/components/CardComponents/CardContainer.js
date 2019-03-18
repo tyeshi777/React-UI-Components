@@ -11,3 +11,5 @@ const CardContainer = () => {
     </div>
   );
 };
+
+export default CardContainer;
