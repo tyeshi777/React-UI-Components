@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+
+.cardImg {
+  max-width: 500px;
+  height: 250px;
+  padding-left: 90px;
+}
+
+.cardContent {
+  padding-left: 110px;
+}
+.cardContent a {
+  text-decoration: none;
+}
+.contentSection {
+  color: black;
+}
+.cardAnchor {
+  color: lightblue;
+}
