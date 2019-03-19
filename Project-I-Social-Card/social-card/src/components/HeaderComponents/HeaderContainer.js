@@ -10,7 +10,7 @@ const HeaderContainer = () => {
       <section>
         <ImageThumbnail />
       </section>
-      <section>
+      <section className="headerTitle">
         <HeaderTitle />
         <HeaderContent />
       </section>

@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+
+.headerDiv {
+  display: flex;
+}
+
+.headerSpan {
+  font-size: 16px;
+  color: lightskyblue;
+  margin-left: 5px;
+}
+.headerImg {
+  width: 40px;
+  height: 40px;
+  border: 1px solid maroon;
+  background: maroon;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.headerTitle {
+  margin-top: 0;
+  margin-left: 10px;
+}
