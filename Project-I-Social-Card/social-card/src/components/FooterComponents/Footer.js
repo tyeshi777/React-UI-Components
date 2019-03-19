@@ -8,13 +8,13 @@ const Footer = () => {
         <i className="fa fa-comment-o" />
       </p>
       <p>
-        <i className="fa fa-comment-o"> 6</i>
+        <i className="fa fa-refresh"> 6</i>
       </p>
       <p>
-        <i className="fa fa-comment-o"> 4</i>
+        <i className="fa fa-heart-o"> 4</i>
       </p>
       <p>
-        <i className="fa fa-comment-o" />
+        <i className="fa fa-envelope-o" />
       </p>
     </div>
   );
