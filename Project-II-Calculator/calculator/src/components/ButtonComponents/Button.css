@@ -1,3 +1,21 @@
+.clear {
+  margin-top: 0;
+  width: 300px;
+  height: 80px;
+  font-size: 40px;
+}
 .numBtn {
-  border: 1px solid red;
+  width: 99.6px;
+  height: 80px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.sign {
+  display: block;
+  width: 82px;
+  height: 80px;
+  background: maroon;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
 }

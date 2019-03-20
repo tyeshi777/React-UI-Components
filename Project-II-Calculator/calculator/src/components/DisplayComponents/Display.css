@@ -1,13 +1,9 @@
-#root {
-  max-width: 400px;
-  height: auto;
-  background: gray;
-}
 .display {
   color: white;
   background: black;
   max-width: 400px;
-  height: 60px;
-  font-size: 30px;
+  height: 80px;
+  font-size: 40px;
   text-align: right;
+  margin-bottom: 0;
 }

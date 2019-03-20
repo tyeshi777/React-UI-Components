@@ -1,0 +1,8 @@
+#root {
+  width: 380px;
+  height: auto;
+  background: gray;
+}
+.flex {
+  display: flex;
+}
