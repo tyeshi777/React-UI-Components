@@ -1,21 +1,24 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import ActionButton from "./components/ButtonComponents/ActionButton";
 
 const App = () => {
+  const numArr = ["clear", 7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+  const signArr = ["÷", "x", "-", "+", "="];
+
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div id="root">
+      <CalculatorDisplay />
+      <div className="flex">
+        <section className="num">
+          <NumberButton num={numArr} />
+        </section>
+        <section className="sign">
+          <ActionButton sign={signArr} />
+        </section>
+      </div>
     </div>
   );
 };
